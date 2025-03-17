@@ -20,12 +20,10 @@
  * 저품질의 sequence는 trimming될 수 있도록 ... blah blah
 
 #### 실험 결과 및 고찰
-<p align="center"><img src=https://github.com/mjkim-micro/dimdi/assets/78595847/f06e2f4d-229c-4023-9bc2-e221b66f21ee height="600px" width="600px"></p>
-
  * FastQC 확인 결과, 평균 Q25 수준의 sequences들이 존재함
  * Sequence 길이가 길어질 수록 Phred score값이 낮아짐
-<p align="center"><img src=https://github.com/mjkim-micro/dimdi/assets/78595847/f06e2f4d-229c-4023-9bc2-e221b66f21ee height="600px" width="600px"></p>
-
  * Trimmomatic을 이용하여 저품질의 데이터를 제거한 후에 FastQC로 다시 quality를 확인한 결과, 평균 Q30 수준의 sequences들만 남게됨
  * Trimming parameter에 따라 제거되는 sequence의 비율이 달라짐
  * ...blah blah
+
+<p align="center"><img src=https://github.com/user-attachments/assets/37f089d6-f162-4c5d-a8c9-3c89a4b35005></p>
